@@ -1,0 +1,667 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/ntpl-350/Desktop/react native/pushnotification/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /home/ntpl-350/Desktop/react native/pushnotification/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /home/ntpl-350/Desktop/react native/pushnotification/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /home/ntpl-350/Desktop/react native/pushnotification/android/app/src/main/AndroidManifest.xml:1:1-26:12
+MERGED from /home/ntpl-350/Desktop/react native/pushnotification/android/app/src/main/AndroidManifest.xml:1:1-26:12
+MERGED from [com.facebook.flipper:flipper:0.125.0] /home/ntpl-350/.gradle/caches/transforms-3/344b5250dbc0ae20ad37cf96cd07d87a/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:8:1-18:12
+MERGED from [com.facebook.flipper:flipper-network-plugin:0.125.0] /home/ntpl-350/.gradle/caches/transforms-3/ed6758abd546c13df377ee260028cbd2/transformed/jetified-flipper-network-plugin-0.125.0/AndroidManifest.xml:8:1-15:12
+MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.125.0] /home/ntpl-350/.gradle/caches/transforms-3/8054649407d550794e488137a13d7e04/transformed/jetified-flipper-fresco-plugin-0.125.0/AndroidManifest.xml:8:1-15:12
+MERGED from [:react-native-async-storage_async-storage] /home/ntpl-350/Desktop/react native/pushnotification/node_modules/@react-native-async-storage/async-storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-firebase_messaging] /home/ntpl-350/Desktop/react native/pushnotification/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-45:12
+MERGED from [:react-native-firebase_app] /home/ntpl-350/Desktop/react native/pushnotification/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-32:12
+MERGED from [:react-native-linear-gradient] /home/ntpl-350/Desktop/react native/pushnotification/node_modules/react-native-linear-gradient/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.react:react-native:0.69.1] /home/ntpl-350/.gradle/caches/transforms-3/9172a4449959cef1fe10d01dcad374bc/transformed/jetified-react-native-0.69.1-debug/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/ntpl-350/.gradle/caches/transforms-3/6e48ab6f02da0f84ccb4eaf8eb98be83/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [org.webkit:android-jsc:r250230] /home/ntpl-350/.gradle/caches/transforms-3/b27746f2a757617357dbc2ddb967905d/transformed/jetified-android-jsc-r250230/AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.fresco:flipper:2.6.0] /home/ntpl-350/.gradle/caches/transforms-3/42dd615004551e522221eb773f01181b/transformed/jetified-flipper-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:stetho:2.6.0] /home/ntpl-350/.gradle/caches/transforms-3/43d22e8ad8319ed4232d6aa645a11ace/transformed/jetified-stetho-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:fresco:2.6.0] /home/ntpl-350/.gradle/caches/transforms-3/d207269daab5bea47e1bdc7b53b78c95/transformed/jetified-fresco-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:soloader:2.6.0] /home/ntpl-350/.gradle/caches/transforms-3/e4a2f934278b07dc176774825ee96ad7/transformed/jetified-soloader-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.5.0] /home/ntpl-350/.gradle/caches/transforms-3/0e5c7868e404581cad4f5638e2329839/transformed/jetified-imagepipeline-okhttp3-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:2.6.0] /home/ntpl-350/.gradle/caches/transforms-3/da7e062666ca59da81e96f295a4d1855/transformed/jetified-drawee-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagefilters:2.6.0] /home/ntpl-350/.gradle/caches/transforms-3/03118e41e40e245922e1040b12e36e72/transformed/jetified-nativeimagefilters-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:memory-type-native:2.6.0] /home/ntpl-350/.gradle/caches/transforms-3/9327f3b0f3ee21569de0248cadc7ba17/transformed/jetified-memory-type-native-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:memory-type-java:2.6.0] /home/ntpl-350/.gradle/caches/transforms-3/28b5a0864584b018af0e6dcae48be805/transformed/jetified-memory-type-java-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-native:2.6.0] /home/ntpl-350/.gradle/caches/transforms-3/3ddb65878e06f38d48d059738347b0df/transformed/jetified-imagepipeline-native-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.10.3] /home/ntpl-350/.gradle/caches/transforms-3/8b6d34af3ec4b4965754ebe58954580a/transformed/jetified-soloader-0.10.3/AndroidManifest.xml:2:1-13:12
+MERGED from [com.facebook.fresco:memory-type-ashmem:2.6.0] /home/ntpl-350/.gradle/caches/transforms-3/adf8937f70fe7cc59e5558025d827731/transformed/jetified-memory-type-ashmem-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:2.6.0] /home/ntpl-350/.gradle/caches/transforms-3/4157241f27d91871a59ee21acbc30740/transformed/jetified-imagepipeline-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.6.0] /home/ntpl-350/.gradle/caches/transforms-3/54a3d2c7df58412ed5b4ce4d8c258933/transformed/jetified-nativeimagetranscoder-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:2.6.0] /home/ntpl-350/.gradle/caches/transforms-3/234ed06a7f6627f854fab230603eaaa4/transformed/jetified-imagepipeline-base-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.appcompat:appcompat:1.4.1] /home/ntpl-350/.gradle/caches/transforms-3/ff79168d1eb45f31fca08f9dea1346eb/transformed/appcompat-1.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /home/ntpl-350/.gradle/caches/transforms-3/d9e3302b6977ba545e15638858bea707/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-messaging:23.0.6] /home/ntpl-350/.gradle/caches/transforms-3/2183b08405efaa00299659374be8ffd9/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:17:1-62:12
+MERGED from [com.google.firebase:firebase-datatransport:18.1.5] /home/ntpl-350/.gradle/caches/transforms-3/844ce8003b8ed26dea8c7bae938d32d3/transformed/jetified-firebase-datatransport-18.1.5/AndroidManifest.xml:15:1-34:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.6] /home/ntpl-350/.gradle/caches/transforms-3/1968c7eafb68d0ee59c979a6386812a6/transformed/jetified-transport-backend-cct-3.1.6/AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.6] /home/ntpl-350/.gradle/caches/transforms-3/b688a39aa5deb3980133a6cb61d82e78/transformed/jetified-transport-runtime-3.1.6/AndroidManifest.xml:15:1-41:12
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /home/ntpl-350/.gradle/caches/transforms-3/827c5bb0f7d9f8519d246a9be4895a42/transformed/jetified-appcompat-resources-1.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.autofill:autofill:1.1.0] /home/ntpl-350/.gradle/caches/transforms-3/7a65e9b9956dc4707def5dddc0e717ee/transformed/jetified-autofill-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.facebook.fresco:middleware:2.6.0] /home/ntpl-350/.gradle/caches/transforms-3/c75bbf4bc1d9b5bb548498d5fde7f872/transformed/jetified-middleware-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:ui-common:2.6.0] /home/ntpl-350/.gradle/caches/transforms-3/8a6d6d00c21e77eb1fdc98d25d72923c/transformed/jetified-ui-common-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/ntpl-350/.gradle/caches/transforms-3/3abbb79b60a2627cdc34fba492306273/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/ntpl-350/.gradle/caches/transforms-3/a9a27f113ec368fb0eab13d99a36d45a/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.1.0] /home/ntpl-350/.gradle/caches/transforms-3/aeed6db5cf90f0b3236643dcf63d1a4d/transformed/sqlite-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-auth:20.2.0] /home/ntpl-350/.gradle/caches/transforms-3/dba257197aee594a9562e18825bdb799/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] /home/ntpl-350/.gradle/caches/transforms-3/52429c39abccc65af6b35e537d145851/transformed/jetified-play-services-auth-api-phone-18.0.1/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.1] /home/ntpl-350/.gradle/caches/transforms-3/5066c3beec73d97686856ca93af1c195/transformed/jetified-play-services-auth-base-18.0.1/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /home/ntpl-350/.gradle/caches/transforms-3/dfa1cd100a0f3b7ab3304418b6fca4a2/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /home/ntpl-350/.gradle/caches/transforms-3/5692589204829b3e2bda420fa62455a6/transformed/jetified-firebase-installations-17.0.1/AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.firebase:firebase-common:20.1.1] /home/ntpl-350/.gradle/caches/transforms-3/06bc2f31a684f5068f68d2228167e560/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:15:1-40:12
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /home/ntpl-350/.gradle/caches/transforms-3/9330afc133d423870ae7799ff6d8295d/transformed/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /home/ntpl-350/.gradle/caches/transforms-3/7f9fb9fd93a3cf8162f4cb44baab7f36/transformed/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.1] /home/ntpl-350/.gradle/caches/transforms-3/7270e2c721ec1f8a1181338b93884439/transformed/jetified-firebase-installations-interop-17.0.1/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /home/ntpl-350/.gradle/caches/transforms-3/5b437934e2885dfa503e9cf5b50a427d/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /home/ntpl-350/.gradle/caches/transforms-3/28948da5e73dcc8729b1856980703f86/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /home/ntpl-350/.gradle/caches/transforms-3/1deaa936cc87066863563871ef2dbdb3/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /home/ntpl-350/.gradle/caches/transforms-3/97df44ab7a82435ac800570e25120199/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.3.6] /home/ntpl-350/.gradle/caches/transforms-3/6d8341b03a36a299ce8b9c771f498773/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.4] /home/ntpl-350/.gradle/caches/transforms-3/b72c4ea13d303016188ec2b035c4afea/transformed/jetified-activity-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/ntpl-350/.gradle/caches/transforms-3/545d103d1050ad1996e27288df690a19/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /home/ntpl-350/.gradle/caches/transforms-3/56d50a83a950de0c82e0cf1852cf99d7/transformed/jetified-emoji2-views-helper-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2:1.0.0] /home/ntpl-350/.gradle/caches/transforms-3/e7ec1f7e7f56ce4266f7860879ac690f/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/ntpl-350/.gradle/caches/transforms-3/f85ac9c09eb4f3f1ee2063d934413ae8/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/ntpl-350/.gradle/caches/transforms-3/b4ea7c0d6b2234176ddc171762f392d9/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/ntpl-350/.gradle/caches/transforms-3/b32c80749d11673f32656013b61688b9/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/ntpl-350/.gradle/caches/transforms-3/77f2de4059df1069ef0a39e6b0cbeab7/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /home/ntpl-350/.gradle/caches/transforms-3/5b77c23602c90ea29bc0bf4296de3971/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.7.0] /home/ntpl-350/.gradle/caches/transforms-3/0deba4acc91fed17198a61b35ad71113/transformed/core-1.7.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/ntpl-350/.gradle/caches/transforms-3/9effca9c4f73078e998bdef0dd7fdf1e/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/ntpl-350/.gradle/caches/transforms-3/02f606531e620a5311009239082daa95/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] /home/ntpl-350/.gradle/caches/transforms-3/a7c4fc5516fdf9892cc4ab7d2910425b/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/ntpl-350/.gradle/caches/transforms-3/3743764966587fd683441d85344d7679/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/ntpl-350/.gradle/caches/transforms-3/b33465cb5e3bd845c4265d5ac4dcd845/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/ntpl-350/.gradle/caches/transforms-3/7414d1e8ba676b6c1e8ec1f496b48d86/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.startup:startup-runtime:1.0.0] /home/ntpl-350/.gradle/caches/transforms-3/50e60c82af79cbf278433517c74fac3d/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /home/ntpl-350/.gradle/caches/transforms-3/41197700172b18bb25b7edbf04e7f8d5/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/ntpl-350/.gradle/caches/transforms-3/cb2650db8eb97940f94d6bf9373ab0d8/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/ntpl-350/.gradle/caches/transforms-3/2fc557e46c227f119b16d352ebf760c8/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /home/ntpl-350/.gradle/caches/transforms-3/5df3d41907cc645227253d61c27a2068/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/ntpl-350/.gradle/caches/transforms-3/8b5eac38a27fe6867e971a2a16e30a91/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] /home/ntpl-350/.gradle/caches/transforms-3/9a8108046446618a84b07a6d9ee9f9f7/transformed/jetified-transport-api-3.0.0/AndroidManifest.xml:15:1-22:12
+MERGED from [com.google.firebase:firebase-components:17.0.0] /home/ntpl-350/.gradle/caches/transforms-3/cdbe0b51c3b50ba3eed0e1b01b06ead0/transformed/jetified-firebase-components-17.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /home/ntpl-350/.gradle/caches/transforms-3/9501b2b1139ffc780be2fb4d7f9c346a/transformed/jetified-firebase-encoders-json-18.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/ntpl-350/.gradle/caches/transforms-3/fecc0088aed0c454c43906b694696a67/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/ntpl-350/.gradle/caches/transforms-3/78710fae01dd9113abab8d98039f896c/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/ntpl-350/.gradle/caches/transforms-3/8d2b2d220472d8c77fa82f0cc669f5ce/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:fbcore:2.6.0] /home/ntpl-350/.gradle/caches/transforms-3/22ff8575a4ab7b866815e18e2763d23e/transformed/jetified-fbcore-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/ntpl-350/.gradle/caches/transforms-3/f2f20c1a5d960228b1ce354794953d80/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /home/ntpl-350/Desktop/react native/pushnotification/android/app/src/debug/AndroidManifest.xml:2:1-13:12
+INJECTED from /home/ntpl-350/Desktop/react native/pushnotification/android/app/src/debug/AndroidManifest.xml:2:1-13:12
+INJECTED from /home/ntpl-350/Desktop/react native/pushnotification/android/app/src/debug/AndroidManifest.xml:2:1-13:12
+	package
+		ADDED from /home/ntpl-350/Desktop/react native/pushnotification/android/app/src/main/AndroidManifest.xml:2:3-33
+		INJECTED from /home/ntpl-350/Desktop/react native/pushnotification/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/ntpl-350/Desktop/react native/pushnotification/android/app/src/main/AndroidManifest.xml:2:3-33
+		INJECTED from /home/ntpl-350/Desktop/react native/pushnotification/android/app/src/debug/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/ntpl-350/Desktop/react native/pushnotification/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/ntpl-350/Desktop/react native/pushnotification/android/app/src/main/AndroidManifest.xml:1:1-26:12
+		INJECTED from /home/ntpl-350/Desktop/react native/pushnotification/android/app/src/debug/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /home/ntpl-350/Desktop/react native/pushnotification/android/app/src/debug/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /home/ntpl-350/Desktop/react native/pushnotification/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/ntpl-350/Desktop/react native/pushnotification/android/app/src/main/AndroidManifest.xml:1:1-26:12
+		INJECTED from /home/ntpl-350/Desktop/react native/pushnotification/android/app/src/debug/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/ntpl-350/Desktop/react native/pushnotification/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/ntpl-350/Desktop/react native/pushnotification/android/app/src/main/AndroidManifest.xml:4:5-67
+MERGED from [com.facebook.flipper:flipper:0.125.0] /home/ntpl-350/.gradle/caches/transforms-3/344b5250dbc0ae20ad37cf96cd07d87a/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:15:5-67
+MERGED from [com.facebook.flipper:flipper:0.125.0] /home/ntpl-350/.gradle/caches/transforms-3/344b5250dbc0ae20ad37cf96cd07d87a/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:15:5-67
+MERGED from [:react-native-firebase_messaging] /home/ntpl-350/Desktop/react native/pushnotification/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-67
+MERGED from [:react-native-firebase_messaging] /home/ntpl-350/Desktop/react native/pushnotification/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.6] /home/ntpl-350/.gradle/caches/transforms-3/1968c7eafb68d0ee59c979a6386812a6/transformed/jetified-transport-backend-cct-3.1.6/AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.6] /home/ntpl-350/.gradle/caches/transforms-3/1968c7eafb68d0ee59c979a6386812a6/transformed/jetified-transport-backend-cct-3.1.6/AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /home/ntpl-350/.gradle/caches/transforms-3/5692589204829b3e2bda420fa62455a6/transformed/jetified-firebase-installations-17.0.1/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /home/ntpl-350/.gradle/caches/transforms-3/5692589204829b3e2bda420fa62455a6/transformed/jetified-firebase-installations-17.0.1/AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /home/ntpl-350/.gradle/caches/transforms-3/9330afc133d423870ae7799ff6d8295d/transformed/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /home/ntpl-350/.gradle/caches/transforms-3/9330afc133d423870ae7799ff6d8295d/transformed/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:8:5-67
+	android:name
+		ADDED from /home/ntpl-350/Desktop/react native/pushnotification/android/app/src/main/AndroidManifest.xml:4:22-64
+application
+ADDED from /home/ntpl-350/Desktop/react native/pushnotification/android/app/src/main/AndroidManifest.xml:6:5-25:19
+MERGED from /home/ntpl-350/Desktop/react native/pushnotification/android/app/src/main/AndroidManifest.xml:6:5-25:19
+MERGED from /home/ntpl-350/Desktop/react native/pushnotification/android/app/src/main/AndroidManifest.xml:6:5-25:19
+MERGED from [:react-native-firebase_messaging] /home/ntpl-350/Desktop/react native/pushnotification/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:5-43:19
+MERGED from [:react-native-firebase_messaging] /home/ntpl-350/Desktop/react native/pushnotification/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:5-43:19
+MERGED from [:react-native-firebase_app] /home/ntpl-350/Desktop/react native/pushnotification/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-30:19
+MERGED from [:react-native-firebase_app] /home/ntpl-350/Desktop/react native/pushnotification/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-30:19
+MERGED from [com.facebook.react:react-native:0.69.1] /home/ntpl-350/.gradle/caches/transforms-3/9172a4449959cef1fe10d01dcad374bc/transformed/jetified-react-native-0.69.1-debug/AndroidManifest.xml:9:5-20
+MERGED from [com.facebook.react:react-native:0.69.1] /home/ntpl-350/.gradle/caches/transforms-3/9172a4449959cef1fe10d01dcad374bc/transformed/jetified-react-native-0.69.1-debug/AndroidManifest.xml:9:5-20
+MERGED from [com.facebook.soloader:soloader:0.10.3] /home/ntpl-350/.gradle/caches/transforms-3/8b6d34af3ec4b4965754ebe58954580a/transformed/jetified-soloader-0.10.3/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.10.3] /home/ntpl-350/.gradle/caches/transforms-3/8b6d34af3ec4b4965754ebe58954580a/transformed/jetified-soloader-0.10.3/AndroidManifest.xml:11:5-20
+MERGED from [com.google.firebase:firebase-messaging:23.0.6] /home/ntpl-350/.gradle/caches/transforms-3/2183b08405efaa00299659374be8ffd9/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:31:5-60:19
+MERGED from [com.google.firebase:firebase-messaging:23.0.6] /home/ntpl-350/.gradle/caches/transforms-3/2183b08405efaa00299659374be8ffd9/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:31:5-60:19
+MERGED from [com.google.firebase:firebase-datatransport:18.1.5] /home/ntpl-350/.gradle/caches/transforms-3/844ce8003b8ed26dea8c7bae938d32d3/transformed/jetified-firebase-datatransport-18.1.5/AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.firebase:firebase-datatransport:18.1.5] /home/ntpl-350/.gradle/caches/transforms-3/844ce8003b8ed26dea8c7bae938d32d3/transformed/jetified-firebase-datatransport-18.1.5/AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.6] /home/ntpl-350/.gradle/caches/transforms-3/1968c7eafb68d0ee59c979a6386812a6/transformed/jetified-transport-backend-cct-3.1.6/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.6] /home/ntpl-350/.gradle/caches/transforms-3/1968c7eafb68d0ee59c979a6386812a6/transformed/jetified-transport-backend-cct-3.1.6/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.6] /home/ntpl-350/.gradle/caches/transforms-3/b688a39aa5deb3980133a6cb61d82e78/transformed/jetified-transport-runtime-3.1.6/AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.6] /home/ntpl-350/.gradle/caches/transforms-3/b688a39aa5deb3980133a6cb61d82e78/transformed/jetified-transport-runtime-3.1.6/AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.gms:play-services-auth:20.2.0] /home/ntpl-350/.gradle/caches/transforms-3/dba257197aee594a9562e18825bdb799/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-auth:20.2.0] /home/ntpl-350/.gradle/caches/transforms-3/dba257197aee594a9562e18825bdb799/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /home/ntpl-350/.gradle/caches/transforms-3/dfa1cd100a0f3b7ab3304418b6fca4a2/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /home/ntpl-350/.gradle/caches/transforms-3/dfa1cd100a0f3b7ab3304418b6fca4a2/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /home/ntpl-350/.gradle/caches/transforms-3/5692589204829b3e2bda420fa62455a6/transformed/jetified-firebase-installations-17.0.1/AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /home/ntpl-350/.gradle/caches/transforms-3/5692589204829b3e2bda420fa62455a6/transformed/jetified-firebase-installations-17.0.1/AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-common:20.1.1] /home/ntpl-350/.gradle/caches/transforms-3/06bc2f31a684f5068f68d2228167e560/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.firebase:firebase-common:20.1.1] /home/ntpl-350/.gradle/caches/transforms-3/06bc2f31a684f5068f68d2228167e560/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /home/ntpl-350/.gradle/caches/transforms-3/7f9fb9fd93a3cf8162f4cb44baab7f36/transformed/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /home/ntpl-350/.gradle/caches/transforms-3/7f9fb9fd93a3cf8162f4cb44baab7f36/transformed/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /home/ntpl-350/.gradle/caches/transforms-3/5b437934e2885dfa503e9cf5b50a427d/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /home/ntpl-350/.gradle/caches/transforms-3/5b437934e2885dfa503e9cf5b50a427d/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /home/ntpl-350/.gradle/caches/transforms-3/28948da5e73dcc8729b1856980703f86/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /home/ntpl-350/.gradle/caches/transforms-3/28948da5e73dcc8729b1856980703f86/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /home/ntpl-350/.gradle/caches/transforms-3/1deaa936cc87066863563871ef2dbdb3/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /home/ntpl-350/.gradle/caches/transforms-3/1deaa936cc87066863563871ef2dbdb3/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /home/ntpl-350/.gradle/caches/transforms-3/97df44ab7a82435ac800570e25120199/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /home/ntpl-350/.gradle/caches/transforms-3/97df44ab7a82435ac800570e25120199/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] /home/ntpl-350/.gradle/caches/transforms-3/e7ec1f7e7f56ce4266f7860879ac690f/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] /home/ntpl-350/.gradle/caches/transforms-3/e7ec1f7e7f56ce4266f7860879ac690f/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.core:core:1.7.0] /home/ntpl-350/.gradle/caches/transforms-3/0deba4acc91fed17198a61b35ad71113/transformed/core-1.7.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.7.0] /home/ntpl-350/.gradle/caches/transforms-3/0deba4acc91fed17198a61b35ad71113/transformed/core-1.7.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/ntpl-350/.gradle/caches/transforms-3/b33465cb5e3bd845c4265d5ac4dcd845/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/ntpl-350/.gradle/caches/transforms-3/b33465cb5e3bd845c4265d5ac4dcd845/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/ntpl-350/.gradle/caches/transforms-3/7414d1e8ba676b6c1e8ec1f496b48d86/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/ntpl-350/.gradle/caches/transforms-3/7414d1e8ba676b6c1e8ec1f496b48d86/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] /home/ntpl-350/.gradle/caches/transforms-3/50e60c82af79cbf278433517c74fac3d/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] /home/ntpl-350/.gradle/caches/transforms-3/50e60c82af79cbf278433517c74fac3d/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.7.0] /home/ntpl-350/.gradle/caches/transforms-3/0deba4acc91fed17198a61b35ad71113/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from /home/ntpl-350/Desktop/react native/pushnotification/android/app/src/main/AndroidManifest.xml:8:7-39
+		ADDED from /home/ntpl-350/Desktop/react native/pushnotification/android/app/src/main/AndroidManifest.xml:8:7-39
+	tools:ignore
+		ADDED from /home/ntpl-350/Desktop/react native/pushnotification/android/app/src/debug/AndroidManifest.xml:10:9-48
+	android:roundIcon
+		ADDED from /home/ntpl-350/Desktop/react native/pushnotification/android/app/src/main/AndroidManifest.xml:10:7-52
+		ADDED from /home/ntpl-350/Desktop/react native/pushnotification/android/app/src/main/AndroidManifest.xml:10:7-52
+	tools:targetApi
+		ADDED from /home/ntpl-350/Desktop/react native/pushnotification/android/app/src/debug/AndroidManifest.xml:9:9-29
+	android:icon
+		ADDED from /home/ntpl-350/Desktop/react native/pushnotification/android/app/src/main/AndroidManifest.xml:9:7-41
+		ADDED from /home/ntpl-350/Desktop/react native/pushnotification/android/app/src/main/AndroidManifest.xml:9:7-41
+	android:allowBackup
+		ADDED from /home/ntpl-350/Desktop/react native/pushnotification/android/app/src/main/AndroidManifest.xml:11:7-34
+		ADDED from /home/ntpl-350/Desktop/react native/pushnotification/android/app/src/main/AndroidManifest.xml:11:7-34
+	android:theme
+		ADDED from /home/ntpl-350/Desktop/react native/pushnotification/android/app/src/main/AndroidManifest.xml:12:7-38
+		ADDED from /home/ntpl-350/Desktop/react native/pushnotification/android/app/src/main/AndroidManifest.xml:12:7-38
+	android:usesCleartextTraffic
+		ADDED from /home/ntpl-350/Desktop/react native/pushnotification/android/app/src/debug/AndroidManifest.xml:8:9-44
+	android:name
+		ADDED from /home/ntpl-350/Desktop/react native/pushnotification/android/app/src/main/AndroidManifest.xml:7:7-38
+		ADDED from /home/ntpl-350/Desktop/react native/pushnotification/android/app/src/main/AndroidManifest.xml:7:7-38
+activity#com.pushnotification.MainActivity
+ADDED from /home/ntpl-350/Desktop/react native/pushnotification/android/app/src/main/AndroidManifest.xml:13:7-24:18
+	android:label
+		ADDED from /home/ntpl-350/Desktop/react native/pushnotification/android/app/src/main/AndroidManifest.xml:15:9-41
+	android:launchMode
+		ADDED from /home/ntpl-350/Desktop/react native/pushnotification/android/app/src/main/AndroidManifest.xml:17:9-40
+	android:windowSoftInputMode
+		ADDED from /home/ntpl-350/Desktop/react native/pushnotification/android/app/src/main/AndroidManifest.xml:18:9-51
+	android:exported
+		ADDED from /home/ntpl-350/Desktop/react native/pushnotification/android/app/src/main/AndroidManifest.xml:19:9-32
+	android:configChanges
+		ADDED from /home/ntpl-350/Desktop/react native/pushnotification/android/app/src/main/AndroidManifest.xml:16:9-118
+	android:name
+		ADDED from /home/ntpl-350/Desktop/react native/pushnotification/android/app/src/main/AndroidManifest.xml:14:9-37
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/ntpl-350/Desktop/react native/pushnotification/android/app/src/main/AndroidManifest.xml:20:9-23:25
+action#android.intent.action.MAIN
+ADDED from /home/ntpl-350/Desktop/react native/pushnotification/android/app/src/main/AndroidManifest.xml:21:13-65
+	android:name
+		ADDED from /home/ntpl-350/Desktop/react native/pushnotification/android/app/src/main/AndroidManifest.xml:21:21-62
+category#android.intent.category.LAUNCHER
+ADDED from /home/ntpl-350/Desktop/react native/pushnotification/android/app/src/main/AndroidManifest.xml:22:13-73
+	android:name
+		ADDED from /home/ntpl-350/Desktop/react native/pushnotification/android/app/src/main/AndroidManifest.xml:22:23-70
+uses-sdk
+INJECTED from /home/ntpl-350/Desktop/react native/pushnotification/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/ntpl-350/Desktop/react native/pushnotification/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/ntpl-350/Desktop/react native/pushnotification/android/app/src/main/AndroidManifest.xml
+MERGED from [com.facebook.flipper:flipper:0.125.0] /home/ntpl-350/.gradle/caches/transforms-3/344b5250dbc0ae20ad37cf96cd07d87a/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper:0.125.0] /home/ntpl-350/.gradle/caches/transforms-3/344b5250dbc0ae20ad37cf96cd07d87a/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-network-plugin:0.125.0] /home/ntpl-350/.gradle/caches/transforms-3/ed6758abd546c13df377ee260028cbd2/transformed/jetified-flipper-network-plugin-0.125.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-network-plugin:0.125.0] /home/ntpl-350/.gradle/caches/transforms-3/ed6758abd546c13df377ee260028cbd2/transformed/jetified-flipper-network-plugin-0.125.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.125.0] /home/ntpl-350/.gradle/caches/transforms-3/8054649407d550794e488137a13d7e04/transformed/jetified-flipper-fresco-plugin-0.125.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.125.0] /home/ntpl-350/.gradle/caches/transforms-3/8054649407d550794e488137a13d7e04/transformed/jetified-flipper-fresco-plugin-0.125.0/AndroidManifest.xml:11:5-13:41
+MERGED from [:react-native-async-storage_async-storage] /home/ntpl-350/Desktop/react native/pushnotification/node_modules/@react-native-async-storage/async-storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-async-storage_async-storage] /home/ntpl-350/Desktop/react native/pushnotification/node_modules/@react-native-async-storage/async-storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-firebase_messaging] /home/ntpl-350/Desktop/react native/pushnotification/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-firebase_messaging] /home/ntpl-350/Desktop/react native/pushnotification/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-firebase_app] /home/ntpl-350/Desktop/react native/pushnotification/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:6:5-8:41
+MERGED from [:react-native-firebase_app] /home/ntpl-350/Desktop/react native/pushnotification/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:6:5-8:41
+MERGED from [:react-native-linear-gradient] /home/ntpl-350/Desktop/react native/pushnotification/node_modules/react-native-linear-gradient/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-linear-gradient] /home/ntpl-350/Desktop/react native/pushnotification/node_modules/react-native-linear-gradient/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.react:react-native:0.69.1] /home/ntpl-350/.gradle/caches/transforms-3/9172a4449959cef1fe10d01dcad374bc/transformed/jetified-react-native-0.69.1-debug/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.react:react-native:0.69.1] /home/ntpl-350/.gradle/caches/transforms-3/9172a4449959cef1fe10d01dcad374bc/transformed/jetified-react-native-0.69.1-debug/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/ntpl-350/.gradle/caches/transforms-3/6e48ab6f02da0f84ccb4eaf8eb98be83/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/ntpl-350/.gradle/caches/transforms-3/6e48ab6f02da0f84ccb4eaf8eb98be83/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [org.webkit:android-jsc:r250230] /home/ntpl-350/.gradle/caches/transforms-3/b27746f2a757617357dbc2ddb967905d/transformed/jetified-android-jsc-r250230/AndroidManifest.xml:7:5-9:41
+MERGED from [org.webkit:android-jsc:r250230] /home/ntpl-350/.gradle/caches/transforms-3/b27746f2a757617357dbc2ddb967905d/transformed/jetified-android-jsc-r250230/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.fresco:flipper:2.6.0] /home/ntpl-350/.gradle/caches/transforms-3/42dd615004551e522221eb773f01181b/transformed/jetified-flipper-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:flipper:2.6.0] /home/ntpl-350/.gradle/caches/transforms-3/42dd615004551e522221eb773f01181b/transformed/jetified-flipper-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:stetho:2.6.0] /home/ntpl-350/.gradle/caches/transforms-3/43d22e8ad8319ed4232d6aa645a11ace/transformed/jetified-stetho-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:stetho:2.6.0] /home/ntpl-350/.gradle/caches/transforms-3/43d22e8ad8319ed4232d6aa645a11ace/transformed/jetified-stetho-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.6.0] /home/ntpl-350/.gradle/caches/transforms-3/d207269daab5bea47e1bdc7b53b78c95/transformed/jetified-fresco-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.6.0] /home/ntpl-350/.gradle/caches/transforms-3/d207269daab5bea47e1bdc7b53b78c95/transformed/jetified-fresco-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:soloader:2.6.0] /home/ntpl-350/.gradle/caches/transforms-3/e4a2f934278b07dc176774825ee96ad7/transformed/jetified-soloader-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:soloader:2.6.0] /home/ntpl-350/.gradle/caches/transforms-3/e4a2f934278b07dc176774825ee96ad7/transformed/jetified-soloader-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.5.0] /home/ntpl-350/.gradle/caches/transforms-3/0e5c7868e404581cad4f5638e2329839/transformed/jetified-imagepipeline-okhttp3-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.5.0] /home/ntpl-350/.gradle/caches/transforms-3/0e5c7868e404581cad4f5638e2329839/transformed/jetified-imagepipeline-okhttp3-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.6.0] /home/ntpl-350/.gradle/caches/transforms-3/da7e062666ca59da81e96f295a4d1855/transformed/jetified-drawee-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.6.0] /home/ntpl-350/.gradle/caches/transforms-3/da7e062666ca59da81e96f295a4d1855/transformed/jetified-drawee-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.6.0] /home/ntpl-350/.gradle/caches/transforms-3/03118e41e40e245922e1040b12e36e72/transformed/jetified-nativeimagefilters-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.6.0] /home/ntpl-350/.gradle/caches/transforms-3/03118e41e40e245922e1040b12e36e72/transformed/jetified-nativeimagefilters-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-native:2.6.0] /home/ntpl-350/.gradle/caches/transforms-3/9327f3b0f3ee21569de0248cadc7ba17/transformed/jetified-memory-type-native-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-native:2.6.0] /home/ntpl-350/.gradle/caches/transforms-3/9327f3b0f3ee21569de0248cadc7ba17/transformed/jetified-memory-type-native-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-java:2.6.0] /home/ntpl-350/.gradle/caches/transforms-3/28b5a0864584b018af0e6dcae48be805/transformed/jetified-memory-type-java-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-java:2.6.0] /home/ntpl-350/.gradle/caches/transforms-3/28b5a0864584b018af0e6dcae48be805/transformed/jetified-memory-type-java-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-native:2.6.0] /home/ntpl-350/.gradle/caches/transforms-3/3ddb65878e06f38d48d059738347b0df/transformed/jetified-imagepipeline-native-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-native:2.6.0] /home/ntpl-350/.gradle/caches/transforms-3/3ddb65878e06f38d48d059738347b0df/transformed/jetified-imagepipeline-native-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.10.3] /home/ntpl-350/.gradle/caches/transforms-3/8b6d34af3ec4b4965754ebe58954580a/transformed/jetified-soloader-0.10.3/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.10.3] /home/ntpl-350/.gradle/caches/transforms-3/8b6d34af3ec4b4965754ebe58954580a/transformed/jetified-soloader-0.10.3/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.fresco:memory-type-ashmem:2.6.0] /home/ntpl-350/.gradle/caches/transforms-3/adf8937f70fe7cc59e5558025d827731/transformed/jetified-memory-type-ashmem-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-ashmem:2.6.0] /home/ntpl-350/.gradle/caches/transforms-3/adf8937f70fe7cc59e5558025d827731/transformed/jetified-memory-type-ashmem-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.6.0] /home/ntpl-350/.gradle/caches/transforms-3/4157241f27d91871a59ee21acbc30740/transformed/jetified-imagepipeline-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.6.0] /home/ntpl-350/.gradle/caches/transforms-3/4157241f27d91871a59ee21acbc30740/transformed/jetified-imagepipeline-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.6.0] /home/ntpl-350/.gradle/caches/transforms-3/54a3d2c7df58412ed5b4ce4d8c258933/transformed/jetified-nativeimagetranscoder-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.6.0] /home/ntpl-350/.gradle/caches/transforms-3/54a3d2c7df58412ed5b4ce4d8c258933/transformed/jetified-nativeimagetranscoder-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.6.0] /home/ntpl-350/.gradle/caches/transforms-3/234ed06a7f6627f854fab230603eaaa4/transformed/jetified-imagepipeline-base-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.6.0] /home/ntpl-350/.gradle/caches/transforms-3/234ed06a7f6627f854fab230603eaaa4/transformed/jetified-imagepipeline-base-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.4.1] /home/ntpl-350/.gradle/caches/transforms-3/ff79168d1eb45f31fca08f9dea1346eb/transformed/appcompat-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.4.1] /home/ntpl-350/.gradle/caches/transforms-3/ff79168d1eb45f31fca08f9dea1346eb/transformed/appcompat-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /home/ntpl-350/.gradle/caches/transforms-3/d9e3302b6977ba545e15638858bea707/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /home/ntpl-350/.gradle/caches/transforms-3/d9e3302b6977ba545e15638858bea707/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-messaging:23.0.6] /home/ntpl-350/.gradle/caches/transforms-3/2183b08405efaa00299659374be8ffd9/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.firebase:firebase-messaging:23.0.6] /home/ntpl-350/.gradle/caches/transforms-3/2183b08405efaa00299659374be8ffd9/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.firebase:firebase-datatransport:18.1.5] /home/ntpl-350/.gradle/caches/transforms-3/844ce8003b8ed26dea8c7bae938d32d3/transformed/jetified-firebase-datatransport-18.1.5/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-datatransport:18.1.5] /home/ntpl-350/.gradle/caches/transforms-3/844ce8003b8ed26dea8c7bae938d32d3/transformed/jetified-firebase-datatransport-18.1.5/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.6] /home/ntpl-350/.gradle/caches/transforms-3/1968c7eafb68d0ee59c979a6386812a6/transformed/jetified-transport-backend-cct-3.1.6/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.6] /home/ntpl-350/.gradle/caches/transforms-3/1968c7eafb68d0ee59c979a6386812a6/transformed/jetified-transport-backend-cct-3.1.6/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.6] /home/ntpl-350/.gradle/caches/transforms-3/b688a39aa5deb3980133a6cb61d82e78/transformed/jetified-transport-runtime-3.1.6/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.6] /home/ntpl-350/.gradle/caches/transforms-3/b688a39aa5deb3980133a6cb61d82e78/transformed/jetified-transport-runtime-3.1.6/AndroidManifest.xml:18:5-20:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /home/ntpl-350/.gradle/caches/transforms-3/827c5bb0f7d9f8519d246a9be4895a42/transformed/jetified-appcompat-resources-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /home/ntpl-350/.gradle/caches/transforms-3/827c5bb0f7d9f8519d246a9be4895a42/transformed/jetified-appcompat-resources-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.1.0] /home/ntpl-350/.gradle/caches/transforms-3/7a65e9b9956dc4707def5dddc0e717ee/transformed/jetified-autofill-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.1.0] /home/ntpl-350/.gradle/caches/transforms-3/7a65e9b9956dc4707def5dddc0e717ee/transformed/jetified-autofill-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.facebook.fresco:middleware:2.6.0] /home/ntpl-350/.gradle/caches/transforms-3/c75bbf4bc1d9b5bb548498d5fde7f872/transformed/jetified-middleware-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:middleware:2.6.0] /home/ntpl-350/.gradle/caches/transforms-3/c75bbf4bc1d9b5bb548498d5fde7f872/transformed/jetified-middleware-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:ui-common:2.6.0] /home/ntpl-350/.gradle/caches/transforms-3/8a6d6d00c21e77eb1fdc98d25d72923c/transformed/jetified-ui-common-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:ui-common:2.6.0] /home/ntpl-350/.gradle/caches/transforms-3/8a6d6d00c21e77eb1fdc98d25d72923c/transformed/jetified-ui-common-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/ntpl-350/.gradle/caches/transforms-3/3abbb79b60a2627cdc34fba492306273/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/ntpl-350/.gradle/caches/transforms-3/3abbb79b60a2627cdc34fba492306273/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/ntpl-350/.gradle/caches/transforms-3/a9a27f113ec368fb0eab13d99a36d45a/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/ntpl-350/.gradle/caches/transforms-3/a9a27f113ec368fb0eab13d99a36d45a/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.1.0] /home/ntpl-350/.gradle/caches/transforms-3/aeed6db5cf90f0b3236643dcf63d1a4d/transformed/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] /home/ntpl-350/.gradle/caches/transforms-3/aeed6db5cf90f0b3236643dcf63d1a4d/transformed/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-auth:20.2.0] /home/ntpl-350/.gradle/caches/transforms-3/dba257197aee594a9562e18825bdb799/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:20.2.0] /home/ntpl-350/.gradle/caches/transforms-3/dba257197aee594a9562e18825bdb799/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] /home/ntpl-350/.gradle/caches/transforms-3/52429c39abccc65af6b35e537d145851/transformed/jetified-play-services-auth-api-phone-18.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] /home/ntpl-350/.gradle/caches/transforms-3/52429c39abccc65af6b35e537d145851/transformed/jetified-play-services-auth-api-phone-18.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.1] /home/ntpl-350/.gradle/caches/transforms-3/5066c3beec73d97686856ca93af1c195/transformed/jetified-play-services-auth-base-18.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.1] /home/ntpl-350/.gradle/caches/transforms-3/5066c3beec73d97686856ca93af1c195/transformed/jetified-play-services-auth-base-18.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /home/ntpl-350/.gradle/caches/transforms-3/dfa1cd100a0f3b7ab3304418b6fca4a2/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /home/ntpl-350/.gradle/caches/transforms-3/dfa1cd100a0f3b7ab3304418b6fca4a2/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /home/ntpl-350/.gradle/caches/transforms-3/5692589204829b3e2bda420fa62455a6/transformed/jetified-firebase-installations-17.0.1/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /home/ntpl-350/.gradle/caches/transforms-3/5692589204829b3e2bda420fa62455a6/transformed/jetified-firebase-installations-17.0.1/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:20.1.1] /home/ntpl-350/.gradle/caches/transforms-3/06bc2f31a684f5068f68d2228167e560/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:20.1.1] /home/ntpl-350/.gradle/caches/transforms-3/06bc2f31a684f5068f68d2228167e560/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /home/ntpl-350/.gradle/caches/transforms-3/9330afc133d423870ae7799ff6d8295d/transformed/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /home/ntpl-350/.gradle/caches/transforms-3/9330afc133d423870ae7799ff6d8295d/transformed/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /home/ntpl-350/.gradle/caches/transforms-3/7f9fb9fd93a3cf8162f4cb44baab7f36/transformed/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /home/ntpl-350/.gradle/caches/transforms-3/7f9fb9fd93a3cf8162f4cb44baab7f36/transformed/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.1] /home/ntpl-350/.gradle/caches/transforms-3/7270e2c721ec1f8a1181338b93884439/transformed/jetified-firebase-installations-interop-17.0.1/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.1] /home/ntpl-350/.gradle/caches/transforms-3/7270e2c721ec1f8a1181338b93884439/transformed/jetified-firebase-installations-interop-17.0.1/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /home/ntpl-350/.gradle/caches/transforms-3/5b437934e2885dfa503e9cf5b50a427d/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /home/ntpl-350/.gradle/caches/transforms-3/5b437934e2885dfa503e9cf5b50a427d/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /home/ntpl-350/.gradle/caches/transforms-3/28948da5e73dcc8729b1856980703f86/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /home/ntpl-350/.gradle/caches/transforms-3/28948da5e73dcc8729b1856980703f86/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /home/ntpl-350/.gradle/caches/transforms-3/1deaa936cc87066863563871ef2dbdb3/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /home/ntpl-350/.gradle/caches/transforms-3/1deaa936cc87066863563871ef2dbdb3/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /home/ntpl-350/.gradle/caches/transforms-3/97df44ab7a82435ac800570e25120199/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /home/ntpl-350/.gradle/caches/transforms-3/97df44ab7a82435ac800570e25120199/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.3.6] /home/ntpl-350/.gradle/caches/transforms-3/6d8341b03a36a299ce8b9c771f498773/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /home/ntpl-350/.gradle/caches/transforms-3/6d8341b03a36a299ce8b9c771f498773/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /home/ntpl-350/.gradle/caches/transforms-3/b72c4ea13d303016188ec2b035c4afea/transformed/jetified-activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /home/ntpl-350/.gradle/caches/transforms-3/b72c4ea13d303016188ec2b035c4afea/transformed/jetified-activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/ntpl-350/.gradle/caches/transforms-3/545d103d1050ad1996e27288df690a19/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/ntpl-350/.gradle/caches/transforms-3/545d103d1050ad1996e27288df690a19/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /home/ntpl-350/.gradle/caches/transforms-3/56d50a83a950de0c82e0cf1852cf99d7/transformed/jetified-emoji2-views-helper-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /home/ntpl-350/.gradle/caches/transforms-3/56d50a83a950de0c82e0cf1852cf99d7/transformed/jetified-emoji2-views-helper-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] /home/ntpl-350/.gradle/caches/transforms-3/e7ec1f7e7f56ce4266f7860879ac690f/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] /home/ntpl-350/.gradle/caches/transforms-3/e7ec1f7e7f56ce4266f7860879ac690f/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/ntpl-350/.gradle/caches/transforms-3/f85ac9c09eb4f3f1ee2063d934413ae8/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/ntpl-350/.gradle/caches/transforms-3/f85ac9c09eb4f3f1ee2063d934413ae8/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/ntpl-350/.gradle/caches/transforms-3/b4ea7c0d6b2234176ddc171762f392d9/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/ntpl-350/.gradle/caches/transforms-3/b4ea7c0d6b2234176ddc171762f392d9/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/ntpl-350/.gradle/caches/transforms-3/b32c80749d11673f32656013b61688b9/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/ntpl-350/.gradle/caches/transforms-3/b32c80749d11673f32656013b61688b9/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/ntpl-350/.gradle/caches/transforms-3/77f2de4059df1069ef0a39e6b0cbeab7/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/ntpl-350/.gradle/caches/transforms-3/77f2de4059df1069ef0a39e6b0cbeab7/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/ntpl-350/.gradle/caches/transforms-3/5b77c23602c90ea29bc0bf4296de3971/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/ntpl-350/.gradle/caches/transforms-3/5b77c23602c90ea29bc0bf4296de3971/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.7.0] /home/ntpl-350/.gradle/caches/transforms-3/0deba4acc91fed17198a61b35ad71113/transformed/core-1.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] /home/ntpl-350/.gradle/caches/transforms-3/0deba4acc91fed17198a61b35ad71113/transformed/core-1.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/ntpl-350/.gradle/caches/transforms-3/9effca9c4f73078e998bdef0dd7fdf1e/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/ntpl-350/.gradle/caches/transforms-3/9effca9c4f73078e998bdef0dd7fdf1e/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/ntpl-350/.gradle/caches/transforms-3/02f606531e620a5311009239082daa95/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/ntpl-350/.gradle/caches/transforms-3/02f606531e620a5311009239082daa95/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /home/ntpl-350/.gradle/caches/transforms-3/a7c4fc5516fdf9892cc4ab7d2910425b/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /home/ntpl-350/.gradle/caches/transforms-3/a7c4fc5516fdf9892cc4ab7d2910425b/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/ntpl-350/.gradle/caches/transforms-3/3743764966587fd683441d85344d7679/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/ntpl-350/.gradle/caches/transforms-3/3743764966587fd683441d85344d7679/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/ntpl-350/.gradle/caches/transforms-3/b33465cb5e3bd845c4265d5ac4dcd845/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/ntpl-350/.gradle/caches/transforms-3/b33465cb5e3bd845c4265d5ac4dcd845/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/ntpl-350/.gradle/caches/transforms-3/7414d1e8ba676b6c1e8ec1f496b48d86/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/ntpl-350/.gradle/caches/transforms-3/7414d1e8ba676b6c1e8ec1f496b48d86/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] /home/ntpl-350/.gradle/caches/transforms-3/50e60c82af79cbf278433517c74fac3d/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] /home/ntpl-350/.gradle/caches/transforms-3/50e60c82af79cbf278433517c74fac3d/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/ntpl-350/.gradle/caches/transforms-3/41197700172b18bb25b7edbf04e7f8d5/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/ntpl-350/.gradle/caches/transforms-3/41197700172b18bb25b7edbf04e7f8d5/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/ntpl-350/.gradle/caches/transforms-3/cb2650db8eb97940f94d6bf9373ab0d8/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/ntpl-350/.gradle/caches/transforms-3/cb2650db8eb97940f94d6bf9373ab0d8/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/ntpl-350/.gradle/caches/transforms-3/2fc557e46c227f119b16d352ebf760c8/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/ntpl-350/.gradle/caches/transforms-3/2fc557e46c227f119b16d352ebf760c8/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /home/ntpl-350/.gradle/caches/transforms-3/5df3d41907cc645227253d61c27a2068/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /home/ntpl-350/.gradle/caches/transforms-3/5df3d41907cc645227253d61c27a2068/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/ntpl-350/.gradle/caches/transforms-3/8b5eac38a27fe6867e971a2a16e30a91/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/ntpl-350/.gradle/caches/transforms-3/8b5eac38a27fe6867e971a2a16e30a91/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] /home/ntpl-350/.gradle/caches/transforms-3/9a8108046446618a84b07a6d9ee9f9f7/transformed/jetified-transport-api-3.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] /home/ntpl-350/.gradle/caches/transforms-3/9a8108046446618a84b07a6d9ee9f9f7/transformed/jetified-transport-api-3.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-components:17.0.0] /home/ntpl-350/.gradle/caches/transforms-3/cdbe0b51c3b50ba3eed0e1b01b06ead0/transformed/jetified-firebase-components-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:17.0.0] /home/ntpl-350/.gradle/caches/transforms-3/cdbe0b51c3b50ba3eed0e1b01b06ead0/transformed/jetified-firebase-components-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /home/ntpl-350/.gradle/caches/transforms-3/9501b2b1139ffc780be2fb4d7f9c346a/transformed/jetified-firebase-encoders-json-18.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /home/ntpl-350/.gradle/caches/transforms-3/9501b2b1139ffc780be2fb4d7f9c346a/transformed/jetified-firebase-encoders-json-18.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/ntpl-350/.gradle/caches/transforms-3/fecc0088aed0c454c43906b694696a67/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/ntpl-350/.gradle/caches/transforms-3/fecc0088aed0c454c43906b694696a67/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/ntpl-350/.gradle/caches/transforms-3/78710fae01dd9113abab8d98039f896c/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/ntpl-350/.gradle/caches/transforms-3/78710fae01dd9113abab8d98039f896c/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/ntpl-350/.gradle/caches/transforms-3/8d2b2d220472d8c77fa82f0cc669f5ce/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/ntpl-350/.gradle/caches/transforms-3/8d2b2d220472d8c77fa82f0cc669f5ce/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:fbcore:2.6.0] /home/ntpl-350/.gradle/caches/transforms-3/22ff8575a4ab7b866815e18e2763d23e/transformed/jetified-fbcore-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:2.6.0] /home/ntpl-350/.gradle/caches/transforms-3/22ff8575a4ab7b866815e18e2763d23e/transformed/jetified-fbcore-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/ntpl-350/.gradle/caches/transforms-3/f2f20c1a5d960228b1ce354794953d80/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/ntpl-350/.gradle/caches/transforms-3/f2f20c1a5d960228b1ce354794953d80/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /home/ntpl-350/Desktop/react native/pushnotification/android/app/src/debug/AndroidManifest.xml
+INJECTED from /home/ntpl-350/Desktop/react native/pushnotification/android/app/src/debug/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/ntpl-350/Desktop/react native/pushnotification/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/ntpl-350/Desktop/react native/pushnotification/android/app/src/debug/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/ntpl-350/Desktop/react native/pushnotification/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/ntpl-350/Desktop/react native/pushnotification/android/app/src/debug/AndroidManifest.xml
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /home/ntpl-350/Desktop/react native/pushnotification/android/app/src/debug/AndroidManifest.xml:5:5-77
+	android:name
+		ADDED from /home/ntpl-350/Desktop/react native/pushnotification/android/app/src/debug/AndroidManifest.xml:5:22-75
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from /home/ntpl-350/Desktop/react native/pushnotification/android/app/src/debug/AndroidManifest.xml:11:9-111
+	android:exported
+		ADDED from /home/ntpl-350/Desktop/react native/pushnotification/android/app/src/debug/AndroidManifest.xml:11:84-108
+	android:name
+		ADDED from /home/ntpl-350/Desktop/react native/pushnotification/android/app/src/debug/AndroidManifest.xml:11:19-83
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [com.facebook.flipper:flipper:0.125.0] /home/ntpl-350/.gradle/caches/transforms-3/344b5250dbc0ae20ad37cf96cd07d87a/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:5-76
+	android:name
+		ADDED from [com.facebook.flipper:flipper:0.125.0] /home/ntpl-350/.gradle/caches/transforms-3/344b5250dbc0ae20ad37cf96cd07d87a/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:22-73
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [:react-native-firebase_messaging] /home/ntpl-350/Desktop/react native/pushnotification/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-68
+MERGED from [com.google.firebase:firebase-messaging:23.0.6] /home/ntpl-350/.gradle/caches/transforms-3/2183b08405efaa00299659374be8ffd9/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:27:5-68
+MERGED from [com.google.firebase:firebase-messaging:23.0.6] /home/ntpl-350/.gradle/caches/transforms-3/2183b08405efaa00299659374be8ffd9/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:27:5-68
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /home/ntpl-350/.gradle/caches/transforms-3/9330afc133d423870ae7799ff6d8295d/transformed/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:9:5-68
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /home/ntpl-350/.gradle/caches/transforms-3/9330afc133d423870ae7799ff6d8295d/transformed/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:9:5-68
+	android:name
+		ADDED from [:react-native-firebase_messaging] /home/ntpl-350/Desktop/react native/pushnotification/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-65
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:react-native-firebase_messaging] /home/ntpl-350/Desktop/react native/pushnotification/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-79
+MERGED from [com.google.firebase:firebase-messaging:23.0.6] /home/ntpl-350/.gradle/caches/transforms-3/2183b08405efaa00299659374be8ffd9/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-messaging:23.0.6] /home/ntpl-350/.gradle/caches/transforms-3/2183b08405efaa00299659374be8ffd9/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.6] /home/ntpl-350/.gradle/caches/transforms-3/1968c7eafb68d0ee59c979a6386812a6/transformed/jetified-transport-backend-cct-3.1.6/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.6] /home/ntpl-350/.gradle/caches/transforms-3/1968c7eafb68d0ee59c979a6386812a6/transformed/jetified-transport-backend-cct-3.1.6/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.6] /home/ntpl-350/.gradle/caches/transforms-3/b688a39aa5deb3980133a6cb61d82e78/transformed/jetified-transport-runtime-3.1.6/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.6] /home/ntpl-350/.gradle/caches/transforms-3/b688a39aa5deb3980133a6cb61d82e78/transformed/jetified-transport-runtime-3.1.6/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /home/ntpl-350/.gradle/caches/transforms-3/5692589204829b3e2bda420fa62455a6/transformed/jetified-firebase-installations-17.0.1/AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /home/ntpl-350/.gradle/caches/transforms-3/5692589204829b3e2bda420fa62455a6/transformed/jetified-firebase-installations-17.0.1/AndroidManifest.xml:10:5-79
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /home/ntpl-350/.gradle/caches/transforms-3/9330afc133d423870ae7799ff6d8295d/transformed/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /home/ntpl-350/.gradle/caches/transforms-3/9330afc133d423870ae7799ff6d8295d/transformed/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from [:react-native-firebase_messaging] /home/ntpl-350/Desktop/react native/pushnotification/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:22-76
+service#io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService
+ADDED from [:react-native-firebase_messaging] /home/ntpl-350/Desktop/react native/pushnotification/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-16:40
+	android:exported
+		ADDED from [:react-native-firebase_messaging] /home/ntpl-350/Desktop/react native/pushnotification/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-37
+	android:name
+		ADDED from [:react-native-firebase_messaging] /home/ntpl-350/Desktop/react native/pushnotification/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-103
+service#io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService
+ADDED from [:react-native-firebase_messaging] /home/ntpl-350/Desktop/react native/pushnotification/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:9-23:19
+	android:exported
+		ADDED from [:react-native-firebase_messaging] /home/ntpl-350/Desktop/react native/pushnotification/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-37
+	android:name
+		ADDED from [:react-native-firebase_messaging] /home/ntpl-350/Desktop/react native/pushnotification/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-95
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from [:react-native-firebase_messaging] /home/ntpl-350/Desktop/react native/pushnotification/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-22:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [:react-native-firebase_messaging] /home/ntpl-350/Desktop/react native/pushnotification/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:17-78
+	android:name
+		ADDED from [:react-native-firebase_messaging] /home/ntpl-350/Desktop/react native/pushnotification/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:25-75
+receiver#io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver
+ADDED from [:react-native-firebase_messaging] /home/ntpl-350/Desktop/react native/pushnotification/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:9-32:20
+	android:exported
+		ADDED from [:react-native-firebase_messaging] /home/ntpl-350/Desktop/react native/pushnotification/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-36
+	android:permission
+		ADDED from [:react-native-firebase_messaging] /home/ntpl-350/Desktop/react native/pushnotification/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-73
+	android:name
+		ADDED from [:react-native-firebase_messaging] /home/ntpl-350/Desktop/react native/pushnotification/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-96
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [:react-native-firebase_messaging] /home/ntpl-350/Desktop/react native/pushnotification/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-31:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [:react-native-firebase_messaging] /home/ntpl-350/Desktop/react native/pushnotification/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:17-81
+	android:name
+		ADDED from [:react-native-firebase_messaging] /home/ntpl-350/Desktop/react native/pushnotification/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:25-78
+meta-data#firebase_messaging_auto_init_enabled
+ADDED from [:react-native-firebase_messaging] /home/ntpl-350/Desktop/react native/pushnotification/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:34:9-36:36
+	android:value
+		ADDED from [:react-native-firebase_messaging] /home/ntpl-350/Desktop/react native/pushnotification/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:36:13-33
+	android:name
+		ADDED from [:react-native-firebase_messaging] /home/ntpl-350/Desktop/react native/pushnotification/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:35:13-64
+meta-data#com.google.firebase.messaging.default_notification_channel_id
+ADDED from [:react-native-firebase_messaging] /home/ntpl-350/Desktop/react native/pushnotification/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:37:9-39:32
+	android:value
+		ADDED from [:react-native-firebase_messaging] /home/ntpl-350/Desktop/react native/pushnotification/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:39:13-29
+	android:name
+		ADDED from [:react-native-firebase_messaging] /home/ntpl-350/Desktop/react native/pushnotification/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:38:13-89
+meta-data#com.google.firebase.messaging.default_notification_color
+ADDED from [:react-native-firebase_messaging] /home/ntpl-350/Desktop/react native/pushnotification/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:40:9-42:47
+	android:resource
+		ADDED from [:react-native-firebase_messaging] /home/ntpl-350/Desktop/react native/pushnotification/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:42:13-44
+	android:name
+		ADDED from [:react-native-firebase_messaging] /home/ntpl-350/Desktop/react native/pushnotification/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:41:13-84
+meta-data#app_data_collection_default_enabled
+ADDED from [:react-native-firebase_app] /home/ntpl-350/Desktop/react native/pushnotification/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:9-13:36
+	android:value
+		ADDED from [:react-native-firebase_app] /home/ntpl-350/Desktop/react native/pushnotification/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-33
+	android:name
+		ADDED from [:react-native-firebase_app] /home/ntpl-350/Desktop/react native/pushnotification/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-63
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [:react-native-firebase_app] /home/ntpl-350/Desktop/react native/pushnotification/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:9-23:19
+MERGED from [com.google.firebase:firebase-messaging:23.0.6] /home/ntpl-350/.gradle/caches/transforms-3/2183b08405efaa00299659374be8ffd9/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:53:9-59:19
+MERGED from [com.google.firebase:firebase-messaging:23.0.6] /home/ntpl-350/.gradle/caches/transforms-3/2183b08405efaa00299659374be8ffd9/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:53:9-59:19
+MERGED from [com.google.firebase:firebase-datatransport:18.1.5] /home/ntpl-350/.gradle/caches/transforms-3/844ce8003b8ed26dea8c7bae938d32d3/transformed/jetified-firebase-datatransport-18.1.5/AndroidManifest.xml:25:9-31:19
+MERGED from [com.google.firebase:firebase-datatransport:18.1.5] /home/ntpl-350/.gradle/caches/transforms-3/844ce8003b8ed26dea8c7bae938d32d3/transformed/jetified-firebase-datatransport-18.1.5/AndroidManifest.xml:25:9-31:19
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /home/ntpl-350/.gradle/caches/transforms-3/5692589204829b3e2bda420fa62455a6/transformed/jetified-firebase-installations-17.0.1/AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /home/ntpl-350/.gradle/caches/transforms-3/5692589204829b3e2bda420fa62455a6/transformed/jetified-firebase-installations-17.0.1/AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-common:20.1.1] /home/ntpl-350/.gradle/caches/transforms-3/06bc2f31a684f5068f68d2228167e560/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:33:9-37:35
+MERGED from [com.google.firebase:firebase-common:20.1.1] /home/ntpl-350/.gradle/caches/transforms-3/06bc2f31a684f5068f68d2228167e560/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:33:9-37:35
+	android:exported
+		ADDED from [:react-native-firebase_app] /home/ntpl-350/Desktop/react native/pushnotification/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-37
+	tools:targetApi
+		ADDED from [:react-native-firebase_app] /home/ntpl-350/Desktop/react native/pushnotification/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-32
+	android:directBootAware
+		ADDED from [:react-native-firebase_app] /home/ntpl-350/Desktop/react native/pushnotification/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-43
+	android:name
+		ADDED from [:react-native-firebase_app] /home/ntpl-350/Desktop/react native/pushnotification/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-84
+meta-data#com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar
+ADDED from [:react-native-firebase_app] /home/ntpl-350/Desktop/react native/pushnotification/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [:react-native-firebase_app] /home/ntpl-350/Desktop/react native/pushnotification/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [:react-native-firebase_app] /home/ntpl-350/Desktop/react native/pushnotification/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:17-120
+provider#io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider
+ADDED from [:react-native-firebase_app] /home/ntpl-350/Desktop/react native/pushnotification/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:9-29:38
+	android:authorities
+		ADDED from [:react-native-firebase_app] /home/ntpl-350/Desktop/react native/pushnotification/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-86
+	android:exported
+		ADDED from [:react-native-firebase_app] /home/ntpl-350/Desktop/react native/pushnotification/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-37
+	android:initOrder
+		ADDED from [:react-native-firebase_app] /home/ntpl-350/Desktop/react native/pushnotification/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-35
+	android:name
+		ADDED from [:react-native-firebase_app] /home/ntpl-350/Desktop/react native/pushnotification/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-88
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from [com.google.firebase:firebase-messaging:23.0.6] /home/ntpl-350/.gradle/caches/transforms-3/2183b08405efaa00299659374be8ffd9/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:26:5-77
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.0.6] /home/ntpl-350/.gradle/caches/transforms-3/2183b08405efaa00299659374be8ffd9/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:26:22-74
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-messaging:23.0.6] /home/ntpl-350/.gradle/caches/transforms-3/2183b08405efaa00299659374be8ffd9/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:29:5-82
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /home/ntpl-350/.gradle/caches/transforms-3/9330afc133d423870ae7799ff6d8295d/transformed/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:11:5-82
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /home/ntpl-350/.gradle/caches/transforms-3/9330afc133d423870ae7799ff6d8295d/transformed/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:11:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.0.6] /home/ntpl-350/.gradle/caches/transforms-3/2183b08405efaa00299659374be8ffd9/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:29:22-79
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-messaging:23.0.6] /home/ntpl-350/.gradle/caches/transforms-3/2183b08405efaa00299659374be8ffd9/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:32:9-39:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:23.0.6] /home/ntpl-350/.gradle/caches/transforms-3/2183b08405efaa00299659374be8ffd9/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:34:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-messaging:23.0.6] /home/ntpl-350/.gradle/caches/transforms-3/2183b08405efaa00299659374be8ffd9/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:35:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.0.6] /home/ntpl-350/.gradle/caches/transforms-3/2183b08405efaa00299659374be8ffd9/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:33:13-78
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:23.0.6] /home/ntpl-350/.gradle/caches/transforms-3/2183b08405efaa00299659374be8ffd9/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:45:9-52:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:23.0.6] /home/ntpl-350/.gradle/caches/transforms-3/2183b08405efaa00299659374be8ffd9/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:48:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-messaging:23.0.6] /home/ntpl-350/.gradle/caches/transforms-3/2183b08405efaa00299659374be8ffd9/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:47:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.0.6] /home/ntpl-350/.gradle/caches/transforms-3/2183b08405efaa00299659374be8ffd9/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:46:13-82
+meta-data#com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar
+ADDED from [com.google.firebase:firebase-messaging:23.0.6] /home/ntpl-350/.gradle/caches/transforms-3/2183b08405efaa00299659374be8ffd9/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:56:13-58:85
+	android:value
+		ADDED from [com.google.firebase:firebase-messaging:23.0.6] /home/ntpl-350/.gradle/caches/transforms-3/2183b08405efaa00299659374be8ffd9/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:58:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.0.6] /home/ntpl-350/.gradle/caches/transforms-3/2183b08405efaa00299659374be8ffd9/transformed/jetified-firebase-messaging-23.0.6/AndroidManifest.xml:57:17-119
+meta-data#com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar
+ADDED from [com.google.firebase:firebase-datatransport:18.1.5] /home/ntpl-350/.gradle/caches/transforms-3/844ce8003b8ed26dea8c7bae938d32d3/transformed/jetified-firebase-datatransport-18.1.5/AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-datatransport:18.1.5] /home/ntpl-350/.gradle/caches/transforms-3/844ce8003b8ed26dea8c7bae938d32d3/transformed/jetified-firebase-datatransport-18.1.5/AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-datatransport:18.1.5] /home/ntpl-350/.gradle/caches/transforms-3/844ce8003b8ed26dea8c7bae938d32d3/transformed/jetified-firebase-datatransport-18.1.5/AndroidManifest.xml:29:17-115
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.6] /home/ntpl-350/.gradle/caches/transforms-3/1968c7eafb68d0ee59c979a6386812a6/transformed/jetified-transport-backend-cct-3.1.6/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.6] /home/ntpl-350/.gradle/caches/transforms-3/b688a39aa5deb3980133a6cb61d82e78/transformed/jetified-transport-runtime-3.1.6/AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.6] /home/ntpl-350/.gradle/caches/transforms-3/b688a39aa5deb3980133a6cb61d82e78/transformed/jetified-transport-runtime-3.1.6/AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.6] /home/ntpl-350/.gradle/caches/transforms-3/1968c7eafb68d0ee59c979a6386812a6/transformed/jetified-transport-backend-cct-3.1.6/AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.6] /home/ntpl-350/.gradle/caches/transforms-3/1968c7eafb68d0ee59c979a6386812a6/transformed/jetified-transport-backend-cct-3.1.6/AndroidManifest.xml:30:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.6] /home/ntpl-350/.gradle/caches/transforms-3/1968c7eafb68d0ee59c979a6386812a6/transformed/jetified-transport-backend-cct-3.1.6/AndroidManifest.xml:32:13-34:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.6] /home/ntpl-350/.gradle/caches/transforms-3/1968c7eafb68d0ee59c979a6386812a6/transformed/jetified-transport-backend-cct-3.1.6/AndroidManifest.xml:34:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.6] /home/ntpl-350/.gradle/caches/transforms-3/1968c7eafb68d0ee59c979a6386812a6/transformed/jetified-transport-backend-cct-3.1.6/AndroidManifest.xml:33:17-94
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:3.1.6] /home/ntpl-350/.gradle/caches/transforms-3/b688a39aa5deb3980133a6cb61d82e78/transformed/jetified-transport-runtime-3.1.6/AndroidManifest.xml:26:9-30:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.6] /home/ntpl-350/.gradle/caches/transforms-3/b688a39aa5deb3980133a6cb61d82e78/transformed/jetified-transport-runtime-3.1.6/AndroidManifest.xml:28:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.6] /home/ntpl-350/.gradle/caches/transforms-3/b688a39aa5deb3980133a6cb61d82e78/transformed/jetified-transport-runtime-3.1.6/AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.6] /home/ntpl-350/.gradle/caches/transforms-3/b688a39aa5deb3980133a6cb61d82e78/transformed/jetified-transport-runtime-3.1.6/AndroidManifest.xml:27:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:3.1.6] /home/ntpl-350/.gradle/caches/transforms-3/b688a39aa5deb3980133a6cb61d82e78/transformed/jetified-transport-runtime-3.1.6/AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.6] /home/ntpl-350/.gradle/caches/transforms-3/b688a39aa5deb3980133a6cb61d82e78/transformed/jetified-transport-runtime-3.1.6/AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.6] /home/ntpl-350/.gradle/caches/transforms-3/b688a39aa5deb3980133a6cb61d82e78/transformed/jetified-transport-runtime-3.1.6/AndroidManifest.xml:33:13-132
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:20.2.0] /home/ntpl-350/.gradle/caches/transforms-3/dba257197aee594a9562e18825bdb799/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:20.2.0] /home/ntpl-350/.gradle/caches/transforms-3/dba257197aee594a9562e18825bdb799/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:20.2.0] /home/ntpl-350/.gradle/caches/transforms-3/dba257197aee594a9562e18825bdb799/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:20.2.0] /home/ntpl-350/.gradle/caches/transforms-3/dba257197aee594a9562e18825bdb799/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:20.2.0] /home/ntpl-350/.gradle/caches/transforms-3/dba257197aee594a9562e18825bdb799/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:20.2.0] /home/ntpl-350/.gradle/caches/transforms-3/dba257197aee594a9562e18825bdb799/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:33:9-37:51
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:20.2.0] /home/ntpl-350/.gradle/caches/transforms-3/dba257197aee594a9562e18825bdb799/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:35:13-36
+	android:visibleToInstantApps
+		ADDED from [com.google.android.gms:play-services-auth:20.2.0] /home/ntpl-350/.gradle/caches/transforms-3/dba257197aee594a9562e18825bdb799/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:37:13-48
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:20.2.0] /home/ntpl-350/.gradle/caches/transforms-3/dba257197aee594a9562e18825bdb799/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:20.2.0] /home/ntpl-350/.gradle/caches/transforms-3/dba257197aee594a9562e18825bdb799/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:34:13-89
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.0.1] /home/ntpl-350/.gradle/caches/transforms-3/dfa1cd100a0f3b7ab3304418b6fca4a2/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /home/ntpl-350/.gradle/caches/transforms-3/dfa1cd100a0f3b7ab3304418b6fca4a2/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /home/ntpl-350/.gradle/caches/transforms-3/dfa1cd100a0f3b7ab3304418b6fca4a2/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /home/ntpl-350/.gradle/caches/transforms-3/dfa1cd100a0f3b7ab3304418b6fca4a2/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:17.0.1] /home/ntpl-350/.gradle/caches/transforms-3/5692589204829b3e2bda420fa62455a6/transformed/jetified-firebase-installations-17.0.1/AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:17.0.1] /home/ntpl-350/.gradle/caches/transforms-3/5692589204829b3e2bda420fa62455a6/transformed/jetified-firebase-installations-17.0.1/AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:17.0.1] /home/ntpl-350/.gradle/caches/transforms-3/5692589204829b3e2bda420fa62455a6/transformed/jetified-firebase-installations-17.0.1/AndroidManifest.xml:19:17-127
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:20.1.1] /home/ntpl-350/.gradle/caches/transforms-3/06bc2f31a684f5068f68d2228167e560/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:26:9-31:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:20.1.1] /home/ntpl-350/.gradle/caches/transforms-3/06bc2f31a684f5068f68d2228167e560/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:28:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:20.1.1] /home/ntpl-350/.gradle/caches/transforms-3/06bc2f31a684f5068f68d2228167e560/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:30:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.1.1] /home/ntpl-350/.gradle/caches/transforms-3/06bc2f31a684f5068f68d2228167e560/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:29:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:20.1.1] /home/ntpl-350/.gradle/caches/transforms-3/06bc2f31a684f5068f68d2228167e560/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:31:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.1.1] /home/ntpl-350/.gradle/caches/transforms-3/06bc2f31a684f5068f68d2228167e560/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:27:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.0.0] /home/ntpl-350/.gradle/caches/transforms-3/97df44ab7a82435ac800570e25120199/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.0.0] /home/ntpl-350/.gradle/caches/transforms-3/97df44ab7a82435ac800570e25120199/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.0.0] /home/ntpl-350/.gradle/caches/transforms-3/97df44ab7a82435ac800570e25120199/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.0.0] /home/ntpl-350/.gradle/caches/transforms-3/e7ec1f7e7f56ce4266f7860879ac690f/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/ntpl-350/.gradle/caches/transforms-3/7414d1e8ba676b6c1e8ec1f496b48d86/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/ntpl-350/.gradle/caches/transforms-3/7414d1e8ba676b6c1e8ec1f496b48d86/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.0.0] /home/ntpl-350/.gradle/caches/transforms-3/50e60c82af79cbf278433517c74fac3d/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.0.0] /home/ntpl-350/.gradle/caches/transforms-3/50e60c82af79cbf278433517c74fac3d/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /home/ntpl-350/.gradle/caches/transforms-3/e7ec1f7e7f56ce4266f7860879ac690f/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:30:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /home/ntpl-350/.gradle/caches/transforms-3/e7ec1f7e7f56ce4266f7860879ac690f/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /home/ntpl-350/.gradle/caches/transforms-3/e7ec1f7e7f56ce4266f7860879ac690f/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /home/ntpl-350/.gradle/caches/transforms-3/e7ec1f7e7f56ce4266f7860879ac690f/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.0.0] /home/ntpl-350/.gradle/caches/transforms-3/e7ec1f7e7f56ce4266f7860879ac690f/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /home/ntpl-350/.gradle/caches/transforms-3/e7ec1f7e7f56ce4266f7860879ac690f/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /home/ntpl-350/.gradle/caches/transforms-3/e7ec1f7e7f56ce4266f7860879ac690f/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/ntpl-350/.gradle/caches/transforms-3/7414d1e8ba676b6c1e8ec1f496b48d86/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/ntpl-350/.gradle/caches/transforms-3/7414d1e8ba676b6c1e8ec1f496b48d86/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/ntpl-350/.gradle/caches/transforms-3/7414d1e8ba676b6c1e8ec1f496b48d86/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
