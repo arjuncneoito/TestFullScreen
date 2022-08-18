@@ -7,12 +7,11 @@ import PopUpModal from '../components/PopUpModal';
 // import CallPage from './CallPage';
 
 const HomePage = data => {
-  console.log(data.data);
   return (
     <LinearGradient
       colors={['#4c669f', '#3b5998', '#192f6a']}
       style={styles.linearGradient}>
-       <PopUpModal />
+      <PopUpModal />
       {/* {data.data == 3 && <CallPage />} */}
 
       <View

@@ -8,7 +8,6 @@ export async function requestUserPermission() {
     authStatus === messaging.AuthorizationStatus.PROVISIONAL;
 
   if (enabled) {
-    console.log('Authorization status:', authStatus);
     GetFCMToken();
   }
 }
@@ -22,8 +21,6 @@ async function GetFCMToken() {
       if (fcmtoken) {
         await AsyncStorage.setItem('fcmtoken', fcmtoken);
         console.log(fcmtoken, 'new');
-      } else {
-        console.log('illa');
       }
     } catch (e) {
       console.log(e);
@@ -31,32 +28,14 @@ async function GetFCMToken() {
   }
 }
 export const NotificationListner = fun => {
-  //   messaging(message => {
-  //     console.log('heyaaa111111111111111111');
-  //   });
-  // console.log('heyaa');
-  messaging().onNotificationOpenedApp(remoteMessage => {
-    console.log(
-      '2222222222222222222222222222222222222Notification caused app to open from background state:',
-      remoteMessage.notification,
-    );
-  });
   messaging()
     .getInitialNotification()
     .then(remoteMessage => {
       if (remoteMessage) {
-        console.log(
-          '111111111111111111111111111111111111111Notification caused app to open from quit state:',
-          remoteMessage.notification,
-        );
         fun(3);
       }
     });
   messaging().onMessage(async remoteMessage => {
-    console.log(
-      '333333333333333333333333333333notifICtion on forground stTE...............',
-      remoteMessage,
-    );
     fun(4);
   });
 };

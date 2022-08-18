@@ -6,9 +6,7 @@ import {NativeModules} from 'react-native';
 const PopUpModal = () => {
   const {CalendarModule} = NativeModules;
   const onPress = () => {
-    console.log('We will invoke the native module here!');
     CalendarModule.createCalendarEvent('testName', 'aaashikq');
-    console.log('njdndjv');
   };
   return (
     <View

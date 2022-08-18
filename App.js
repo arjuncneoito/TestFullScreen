@@ -17,13 +17,13 @@ const App = () => {
   const fun = message => {
     setsecond(message);
     setfirst(message);
-    console.log('message 1123455y78899555', message);
   };
-  console.log(first, 'first');
   return (
     <View>
-      {(second == 1 || second == 6 || second == 4) && <HomePage data={first} />}
-      {first == 3 && <CallPage />}
+      {(second === 1 || second === 6 || second === 4) && (
+        <HomePage data={first} />
+      )}
+      {first === 3 && <CallPage />}
     </View>
   );
 };
